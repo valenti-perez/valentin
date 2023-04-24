@@ -1,0 +1,110 @@
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+nav{
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   padding:25px;
+   font-size: 30px;
+   /* list-style-type: none;  */
+}
+.logo h1{
+    font-size:40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style:oblique;
+    color: white;
+    font-family: 'Courier New', Courier, monospace sans-serif;
+    text-transform: capitalize;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    text-align: left;
+
+}
+li a{
+    font-size:25px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding:10px;
+    color: white;
+    transition: 0.4s;
+    text-align: right;
+    text-transform: capitalize;
+}
+li a:hover{
+    color: #ffbe33;
+}
+.button a{
+    width:170px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size:20px;
+    color: white;
+    background-color: #ffbe33;
+    text-decoration: none;
+    padding: 10px;
+    border-radius:20px;
+}
+body{
+    background-image:url(./hero-bg.jpg);
+    /* background-position: center cente; */
+    background-size: 100%;
+    background-size: cover;
+
+
+}
+.heading{
+    color:white;
+    border: 2px solid red;
+
+
+}
+.heading h1{
+    font-size:40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:800;
+
+}
+.heading p{
+    /* font-size:15px; */
+    /* font-family: sans-serif; */
+
+}
+.heading a{
+    width:170px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size:20px;
+    color: white;
+    background-color: #ffbe33;
+    text-decoration: none;
+    padding: 10px;
+    margin:20px 0px 10px 0px;
+    border-radius:20px;
+}
+.difj{
+    width:400px;
+    height: 100px;
+    background: #ffbe33;
+    /* display: none; */
+    opacity:0;
+    pointer-events: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+     
+}
